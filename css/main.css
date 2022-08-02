@@ -1,0 +1,39 @@
+.div-body {
+    background-color: #4b5156;
+}
+
+.img-clo {
+    height: 400px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-edit {
+    width: 40%;
+
+    text-align: center;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+
+.col {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    justify-items: center;
+}
