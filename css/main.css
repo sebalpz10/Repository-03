@@ -1,3 +1,5 @@
+/* ----------ALL---------- */
+
 * {
     margin: 0;
 
@@ -11,12 +13,195 @@
 }
 
 .div-body {
-    background-color: #4b5156;
+    background-color: #b3b3b3;
 }
 
-.img-clo {
-    height: 400px;
+/* ----------FOOTER---------- */
+
+footer {
+    background-color: #717575;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    margin-top: 75px;
 }
+
+.copy {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.ul-footer {
+    display: flex;
+
+    justify-content: space-between;
+
+    list-style-type: none;
+
+    margin-right: 90px;
+}
+
+.li-footer {
+    margin-top: 10px;
+}
+
+.div-footer {
+    width: 33%;
+}
+
+.btn-footer {
+    text-decoration: none;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+
+    color: #000000;
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+    transition: all .5s ease;
+}
+
+.btn-footer:hover {
+    color: #b3b3b3;
+}
+
+.div-redes {
+    display: flex;
+
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.redes {
+    font-size: 25px;
+
+    color: #000000;
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    transition: all .5s ease;
+}
+
+.redes:hover {
+    color: #b3b3b3;
+}
+
+
+/* ----------FOOTER---------- */
+
+/* ----------ALL---------- */
+
+
+
+/* ----------INDEX---------- */
+
+/* ----------HEADER-INDEX---------- */
+
+header {
+    background-color: #717575;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.img-logo {
+    height: 60px;
+}
+
+.div-logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.fa-language {
+    font-size: 30px;
+}
+
+/* ----------NAV-INDEX---------- */
+
+nav {
+    margin-left: 77px;
+}
+
+.ul-nav {
+    list-style-type: none;
+
+    display: flex;
+}
+
+.li-nav {
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-nav {
+    text-decoration: none;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+
+    color: #000000;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+
+    transition: all .5s ease;
+}
+
+.btn-nav:hover {
+    border-bottom: solid #b3b3b3 5px;
+
+    color: #b3b3b3;
+}
+
+.dropdown-menu {
+    background-color: #5b5b5b;
+
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.li-drop {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.btn-drop {
+    text-decoration: none;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+
+    color: #000000;
+
+    transition: all .5s ease;
+
+    padding: 10px;
+}
+
+.btn-drop:hover {
+    color: #b3b3b3;
+}
+
+/* ----------NAV-INDEX---------- */
+
+/* ----------HEADER-INDEX---------- */
+
+
+/* ----------MAIN-INDEX---------- */
+
+/* ----------BOOTSTRAP-INDEX---------- */
 
 .carousel-inner {
     position: relative;
@@ -25,18 +210,83 @@
 }
 
 .carousel-edit {
-    width: 40%;
+    width: 32%;
 
     text-align: center;
 
-    margin-top: 30px;
-    margin-left: auto;
-    margin-bottom: 50px;
     margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+}
+
+.div-destacados {
+    display: flex;
+
+    justify-content: center;
 }
 
 .col {
     text-align: center;
+}
+
+/* ----------BOOTSTRAP-INDEX---------- */
+
+.div-text {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.text {
+    text-decoration: none;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+
+    color: #000000;
+
+    transition: all .1s ease;
+}
+
+.text:hover {
+    color: #000000;
+
+    animation: cambiar 1s;
+}
+
+@keyframes cambiar {
+    0% {
+        color: #000000;
+    }
+
+    20% {
+        color: #b3b3b3;
+    }
+
+    100% {
+        color: #000000;
+    }
+}
+
+.img-new {
+    height: 450px;
+}
+
+.img-grid {
+    height: 300px;
+
+    margin-top: 5px;
+    margin-bottom: 100px;
+
+    transition: all .5s ease;
+}
+
+.img-grid:hover {
+    transform: scale(1.04);
 }
 
 .banner {
@@ -46,6 +296,31 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-row-gap: 50px;
-    justify-items: center;
+
+    display: flex;
+
+    justify-content: space-evenly;
 }
+
+.div-prendas {
+    margin-top: 70px;
+
+    height: 250px;
+    width: 250px;
+
+    overflow: hidden;
+}
+
+.img-prendas {
+    height: 250px;
+
+    transition: all .5s ease;
+}
+
+.img-prendas:hover {
+    transform: scale(1.07);
+}
+
+/* ----------MAIN-INDEX---------- */
+
+/* ----------INDEX---------- */
