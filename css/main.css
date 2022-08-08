@@ -683,3 +683,164 @@ nav {
 /* ----------MAIN-ZAPATILLAS---------- */
 
 /* ----------ZAPATILLAS---------- */
+
+
+
+/* ----------MEDIA-QUERIES---------- */
+
+.responsive-login {
+    display: none;
+}
+
+.img-logo-02 {
+    height: 70px;
+}
+
+.responsive-nav {
+    display: none;
+}
+
+.responsive-prendas {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .responsive-login {
+        display: flex;
+    }
+
+    .anule-01 {
+        display: none;
+    }
+
+    .cuadro-login {
+        margin-top: 30px;
+    }
+
+    .r-copy {
+        position: absolute;
+        left: 15px;
+        bottom: 12px;
+    }
+
+    .r-redes {
+        position: absolute;
+        right: 25px;
+        bottom: 15px;
+    }
+
+    .r-redes a {
+        text-decoration: none;
+
+        color: #000000;
+    }
+
+    .cuadro-login {
+        width: 270px;
+    }
+
+    .nav-login {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img-card {
+        height: 300px;
+    }
+
+    .img-zapa {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .responsive-prendas {
+        display: flex;
+    }
+
+    .anule-02 {
+        display: none;
+    }
+
+    .redes-prendas {
+        text-decoration: none;
+
+        color: #000000;
+
+        margin-top: 8px;
+        margin-right: 15px;
+    }
+
+    .copy-prendas {
+        color: #000000;
+
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .img-zapa {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .img-card {
+        height: 250px;
+    }
+
+    .div-card h5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .img-card {
+        height: 200px;
+    }
+
+    .nav-anule {
+        display: none;
+    }
+
+    .responsive-nav {
+        display: block;
+    }
+
+    .fa-bars {
+        color: #000000;
+
+        font-size: 23px;
+    }
+
+    .btn-drop-nav-r {
+        margin-top: 28px;
+        margin-right: 20px;
+
+        border: 0px;
+
+        background-color: #717575;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .grid-zapas-r {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid-prendas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .grid-zapas-r {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ----------MEDIA-QUERIES---------- */
