@@ -6,6 +6,8 @@
     padding: 0;
 
     box-sizing: border-box;
+
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .none {
@@ -55,7 +57,6 @@ footer {
 .btn-footer {
     text-decoration: none;
 
-    font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
 
     color: #000000;
@@ -146,7 +147,6 @@ nav {
 .btn-nav {
     text-decoration: none;
 
-    font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
 
     color: #000000;
@@ -180,7 +180,6 @@ nav {
 .btn-drop {
     text-decoration: none;
 
-    font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
 
     color: #000000;
@@ -297,9 +296,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-    display: flex;
-
-    justify-content: space-evenly;
+    justify-items: center;
 }
 
 .div-prendas {
@@ -324,3 +321,365 @@ nav {
 /* ----------MAIN-INDEX---------- */
 
 /* ----------INDEX---------- */
+
+
+
+/* ----------LOGIN---------- */
+
+.body-login {
+    height: 100vh;
+}
+
+.footer-login {
+    position: absolute;
+    bottom: 0px;
+
+    width: 100%;
+    height: 50px;
+}
+
+/* ----------HEADER-LOGIN---------- */
+
+.nav-login {
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.btn-register {
+    text-decoration: none;
+
+    color: #000000;
+
+    font-size: 20px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+
+    transition: all .5s ease;
+}
+
+.btn-register:hover {
+    border-bottom: solid #b3b3b3 5px;
+
+    color: #b3b3b3;
+}
+
+/* ----------HEADER-LOGIN---------- */
+
+/* ----------MAIN-LOGIN---------- */
+
+.logo-login {
+    height: 35px;
+
+    margin-top: 25px;
+}
+
+.cuadro-login {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: #717575;
+
+    width: 24%;
+
+    border-radius: 10px;
+    border: #000000 solid 2px;
+}
+
+.text-login {
+    font-size: 18px;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.continuar ul {
+    list-style: none;
+
+    text-align: center;
+}
+
+.continuar ul li {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.continuar ul li a {
+    text-decoration: none;
+
+    color: #000000;
+
+    background-color: #b3b3b3;
+
+    border: #000000 solid 1px;
+    border-radius: 5px;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    transition: all .5s ease;
+}
+
+.continuar ul li a:hover {
+    color: #b3b3b3;
+
+    background-color: #353535;
+}
+
+.data {
+    color: #000000;
+
+    margin-bottom: 15px;
+
+    width: 200px;
+    height: 25px;
+
+    border: #000000 solid 1px;
+}
+
+.text-check {
+    font-size: 14px;
+}
+
+.iniciar {
+    margin-top: 20px;
+    margin-left: 55px;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    border: #000000 solid 1px;
+    border-radius: 5px;
+
+    background-color: #b3b3b3;
+
+    transition: all .5s ease;
+}
+
+.iniciar:hover {
+    color: #b3b3b3;
+
+    background-color: #353535;
+
+    cursor: pointer;
+}
+
+.olvide {
+    text-decoration: none;
+
+    color: #000000;
+
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+.div-olvide {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* ----------MAIN-LOGIN---------- */
+
+/* ----------LOGIN---------- */
+
+
+
+/* ----------SOPORTE---------- */
+
+/* ----------MAIN-SOPORTE---------- */
+
+.div-search {
+    position: absolute;
+    left: 50.5%;
+    top: 35%;
+
+    transform: translate(-50%, -50%);
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.div-search input {
+    outline: none;
+
+    height: 60px;
+    width: 0;
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+    color: #000000;
+    font-size: 20px;
+
+    border: solid 1px #717575;
+    border-radius: 50px;
+
+    transition: all .7s ease;
+}
+
+.div-search input::placeholder {
+    color: #000000;
+}
+
+.div-lupa {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 80px;
+    height: 80px;
+
+    background-color: #717575;
+
+    line-height: 80px;
+
+    border-radius: 50%;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.div-lupa i {
+    font-size: 25px;
+    color: #ffffff;
+
+    line-height: 80px;
+
+    transition: all .7s ease;
+}
+
+.div-search:hover input {
+    width: 350px;
+}
+
+.div-search:hover i {
+    transform: rotate(-360deg);
+}
+
+.div-lupa:hover {
+    background-color: #717575;
+}
+
+.grid-soporte {
+    margin-top: 300px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+
+    text-align: center;
+
+    width: 60%;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-soporte {
+    text-decoration: none;
+
+    color: #000000;
+
+    font-size: 20px;
+
+    width: 400px;
+
+    font-weight: 600;
+}
+
+.div-soporte {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: #717575;
+
+    border: solid 2px #000000;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: all .5s ease;
+}
+
+.div-soporte:hover .btn-soporte {
+    color: #717575;
+}
+
+.div-soporte:hover {
+    background-color: #353535;
+}
+
+/* ----------MAIN-SOPORTE---------- */
+
+/* ----------SOPORTE---------- */
+
+
+
+/* ----------CAMISAS---------- */
+
+/* ----------MAIN-CAMISAS---------- */
+
+.grid-prendas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+
+    justify-items: center;
+
+    margin-top: 50px;
+}
+
+.card-camisas {
+    text-align: center;
+}
+
+.img-card {
+    height: 370px;
+}
+
+.div-card {
+    margin-top: 10px;
+}
+
+.div-card a {
+    text-decoration: none;
+
+    color: #ffffff;
+}
+
+/* ----------MAIN-CAMISAS---------- */
+
+/* ----------CAMISAS---------- */
+
+
+
+/* ----------ZAPATILLAS---------- */
+
+/* ----------MAIN-ZAPATILLAS---------- */
+
+.img-zapa {
+    height: 300px;
+}
+
+/* ----------MAIN-ZAPATILLAS---------- */
+
+/* ----------ZAPATILLAS---------- */
